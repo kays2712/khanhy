@@ -116,7 +116,7 @@ aside{
 }
 aside>ul{
     padding: 0px ;
-    margin : 5px;
+    margin-left: 5px;
     list-style:none;
     border-radius: 3px;
     box-shadow:0 0 3px gray ;
@@ -158,48 +158,6 @@ aside>ul>li>a{
 }
 .form-group{
     margin: 0px 250px;
-}
-
-.form-control{
-    width: 100%;
-    padding: 9px;
-
-    border: 1px solid grey;
-    border-radius: 3px;
-}
-.form-group label{
-    font-weight: bold;
-    font-variant: small-caps;
-}
-.form-control:focus{
-    background-color:rgb(229, 197, 226) ;
-    box-shadow:0 0 3 pixel red ;
-    border:1 pixel solid yellow ;
-    outline-color: rgb(164, 127, 237);
-}
-.form-button{
-    padding: 8px 30px;
-    outline-color: rgb(18, 138, 134);
-    border-radius: 3px;
-    border: none;   
-    font-weight: bold;
-    background-color: aliceblue;
-    color: brown;
-    box-shadow: inset 0 0 20px yellowgreen;
-}
-.form-button :hover{
-    color: blueviolet;
-    box-shadow: inset 0 0 20px orangered;
-    cursor: pointer;
-}
-.form-button:disabled{  
-    color: darkgray;
-    box-shadow: inset 0 0 20px gray;
-    cursor: no-drop;
-}
-.form-button:focus{
-    color: rgb(20, 114, 196);
-    box-shadow: inset 0 0 20px red;
 }
 .video-container{
     position: relative;
